@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+<html lang = "en">
+<head>
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>LOGIN</title>
+</head>
+<body>
+  <div class="bgimg fadeIn animated">
+    <div class="spacer"></div>
+    <!--Main body-->
+    <div class="form center fadeIn animated">
+      <form class="entry center" id ="form" name="form" method="post">
+        <p>Username: </p>
+        <input type="text" name="username" id="usernameID" placeholder="Enter username here" />
+        <br>
+        <p>Password: </p>
+        <input type="password" name="password" id="passwordID" placeholder="Enter password here">
+      </form>
+      <input type="submit" value="Log In" id="submit" onclick="login()">
+      <div class="spacer"></div>
+      <br>
+      <img id="loading" src="images/loader2.gif" alt="loading_img">
+    </div>
+  </div>
+</body>
+</html>
